@@ -1,0 +1,19 @@
+cd
+ls
+ls -al
+pwd
+code .
+
+git clone https://github.com/SorawitZongkun/basic_python_68_2.git
+
+git init
+git remote add origin https://github.com/SorawitZongkun/basic_python_68_2.git
+
+git config --global user.name "your name"
+git config --global user.email "your email"
+
+git add .
+git commit -m "your message"
+git push origin main
+
+git pull origin main
